@@ -2,8 +2,9 @@
 
 Modèle de Machine Learning qui estime la probabilité qu'un client résilie son contrat d'assurance auto, avec une interface web permettant à un conseiller de saisir le profil d'un client et d'obtenir immédiatement son niveau de risque.
 
-**Application en ligne :** _à compléter après déploiement (étape 28)_
-**Modèle :** Random Forest (`class_weight='balanced'`) · AUC test ≈ 0,85
+**Application en ligne :** https://scoring-resiliation-prusqziefvpbwlcgte6vxl.streamlit.app/
+**Dépôt GitHub :** https://github.com/kamga-75/scoring-resiliation
+**Modèle :** Random Forest (`class_weight='balanced'`) · AUC test ≈ 0,86 (versions locales : scikit-learn 1.9.1)
 
 ## Structure du projet
 

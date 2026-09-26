@@ -61,7 +61,7 @@ for col in cat_cols:
 st.sidebar.markdown("---")
 seuil_risque = st.sidebar.slider(
     "🎚️ Seuil d'alerte (risque)", min_value=0.30, max_value=0.70,
-    value=0.55, step=0.01,
+    value=0.50, step=0.01,
     help="Probabilité à partir de laquelle un client est classé « à risque ».",
 )
 seuil_modere = max(0.10, seuil_risque - 0.15)
